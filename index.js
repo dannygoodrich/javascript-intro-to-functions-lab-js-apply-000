@@ -19,7 +19,9 @@ function logWhisper(s) {
   console.log(whisper(s))
 }
 
-function sayHiToGrandma()
+function sayHiToGrandma(a) {
+  if a === 
+}
 
 
 
