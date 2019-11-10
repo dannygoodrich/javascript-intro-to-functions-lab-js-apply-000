@@ -31,9 +31,7 @@ describe('logWhisper(string)', function() {
     expect(spy).toHaveBeenCalledWith('hello')
     console.log.restore()
     
-    logWhisper('aSeDfeE')
-    expect(spy).toHaveBeenCalledWith('asedfee')
-    console.log.restore()
+    
   })
 })
 
