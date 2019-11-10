@@ -15,7 +15,7 @@ describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const s = expect.spyOn(console, 'log').andCallThrough()
 
-    logShout('fuck')
+    logShout('fuck', 'apple', 'cat')
     expect(s).toHaveBeenCalledWith('FUCK')
     //verify that console.log was called with 'HELLO'
 
