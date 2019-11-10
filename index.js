@@ -20,7 +20,7 @@ function logWhisper(s) {
 }
 
 function sayHiToGrandma(a) {
-  if a === 
+  if (wh
 }
 
 
