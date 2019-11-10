@@ -16,8 +16,9 @@ describe('logShout(string)', function() {
     const s = expect.spyOn(console, 'log').andCallThrough()
 
     logShout('hello')
-
+    console.log('HELLO')
     expect(s).toHaveBeenCalledWith('HELLO')
+    //verify that console.log was called with 'HELLO'
 
     console.log.restore()
   })
