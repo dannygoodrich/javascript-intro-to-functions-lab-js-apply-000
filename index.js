@@ -13,5 +13,7 @@ loercase.toLowerCase() === lowercase;
 
 function logShout(s, a, b) {
   console.log(s)
+  console.log(a)
+  console.log(b)
   
 }
