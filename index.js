@@ -22,12 +22,11 @@ function logWhisper(s) {
 function sayHiToGrandma(s) {
   if (s === whisper(s)) {
   console.log("I can't hear you!");
-} else if {
-  (s === shout(s));
+} else if (s === shout(s)) {  
   console.log("YES INDEED");
 } else {
 console.log("I love you, too.");
 }
-
+}
 
 
