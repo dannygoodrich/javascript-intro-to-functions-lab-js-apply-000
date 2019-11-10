@@ -11,8 +11,7 @@ uppercase.toUpperCase() === uppercase;
 var lowercase = 'hello!';
 loercase.toLowerCase() === lowercase;
 
-function logShout(string) {
-  //console.log()
-return
+function logShout(s) {
+  console.log(s)
   
 }
