@@ -18,3 +18,9 @@ function logShout(s) {
 function logWhisper(s) {
   console.log(whisper(s))
 }
+
+function sayHiToGrandma()
+
+
+
+
