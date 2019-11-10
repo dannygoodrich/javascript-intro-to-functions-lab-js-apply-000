@@ -19,8 +19,8 @@ function logWhisper(s) {
   console.log(whisper(s))
 }
 
-function sayHiToGrandma(a) {
-  if (wh
+function sayHiToGrandma(whisper) {
+  console.log("I can't hear you!")
 }
 
 
