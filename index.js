@@ -23,12 +23,6 @@ function sayHiToGrandma(s) {
   if (s === whisper(s));
   console.log("I can't hear you!")
 }
-if 
-  (s === shout(s));
-  console.log("YES INDEED");
-} else {
-console.log("I love you, too.");
-}
 
 
 
